@@ -1,0 +1,173 @@
+
+
+/*****Header Section*****/
+
+.header-area{
+	background:url("images/header-bg.jpg");
+	background-size: 100% 100%;
+	background-repeat:no-repeat;
+	height:100vh;
+}
+.header-area .navbar-brand {
+	font-family:Elephant;
+	font-size:24px;
+}
+.navbar ul li a{
+	text-transform:uppercase;
+	color:white;
+	font-family:arial;
+	font-size:14px;
+}
+.navbar ul li a:hover{
+	color:#F8A553;
+}
+.welcome-text{
+	padding-top:200px;
+	color:#fff;
+}
+.welcome-text h4{
+	font-size:44px;
+	font-style:italic;
+}
+.welcome-text h1{
+	font-size:80px;
+	margin:0;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.header-area .button{
+	text-align:center;
+	padding-top:50px;
+}
+.button a{
+	font-size:24px;
+	padding:20px 30px;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+}
+
+/*****Service Section*****/
+
+.service-area{
+	height:80vh;
+}
+.service-heading{
+	margin-top:100px;
+	margin-bottom:50px;
+}
+.service-area .col-md-4 i{
+	background:#f9ca24;
+	color:#fff;
+	font-size:50px;
+	padding:30px;
+	border-radius:50%;
+}
+.col-md-4 h3{
+	font-weight:bold;
+	font-size:25px;
+	padding-top:20px;
+}
+.col-md-4 p{
+	color:#808e9b;
+}
+
+/*****Portfolio Section******/
+
+.portfolio-area{
+	background:#f1f2f6;
+}
+.portfolio-area .portfolio-heading{
+	padding-top:100px;
+}
+.portfolio-area .card{
+	border:none;
+}
+
+/******About Section*****/
+
+.about-area hr{
+	border-right:0;
+	border-left:0;
+	border-top:0;
+	border-bottom:2px solid #34495e;
+	padding-bottom:20px;
+	padding-top:10px;
+}
+.about-area .col-md-6 img{
+	border:10px solid #bdc3c7;
+}
+.about-area .col-md-12{
+	background:#f39c12;
+	height:200px;
+	width:200px;
+	border-radius:50%;
+	padding-top:50px;
+	margin-left:450px;
+}
+
+/*****Team Section*****/
+
+.team-area{
+	background:#f1f2f6;
+	padding:100px 0;
+}
+.team-area .team-heading h2{
+	font-size:38px;
+}
+.team-area .team-heading{
+	padding-bottom:40px;
+}
+
+.icon i{
+	background:#34495e;
+	color:#fff;
+	font-size:25px;
+	padding:15px;
+	border-radius:50%;
+}
+.icon i:hover{
+	background:#f39c12;
+}
+.icons i{
+	background:#34495e;
+	color:#fff;
+	font-size:25px;
+	padding:15px;
+	border-radius:50%;
+}
+.icons i:hover{
+	background:#f39c12;
+}
+.icons{
+	border-right:2px solid #000;
+	border-left:2px solid #000;
+	padding:0 4.5px;
+	}
+.team-area .col-md-4 img{
+	border:10px solid #bdc3c7;
+}
+
+/*****Footer Section******/
+
+.footer-icon i{
+	background:#34495e;
+	color:#fff;
+	font-size:25px;
+	padding:15px;
+	border-radius:50%;
+}
+.footer-icon i:hover{
+	background:#f39c12;
+}
+
+
+
+@media (min-width: 768px) {
+	.about-area .col-md-12{
+		margin:auto;
+	}
+	.footer-area .col-md-4 a{
+		text-align:right
+	}
+}
